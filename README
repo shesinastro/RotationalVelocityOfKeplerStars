@@ -5,4 +5,4 @@ Execute as:
 1) ./download.sh
 2) /.ExtractVrot.sh
 
-Input: list of KOIs of interest
+Input: list of KOIs of interest; either all KOIs, or only KOI with high-signal-to-noise spectra.
