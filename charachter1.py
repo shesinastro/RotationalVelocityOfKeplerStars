@@ -29,14 +29,8 @@ for lines in f.readlines():
                 try:
                     listerror.append(float(a[1]))  
                 except ValueError:
-                    listerror.append(1) 
+                    listerror.append(1) #append typical value of vsini-uncertainy when uncertainty value on vsini not provided
                     
-                    
-                    
-                    #appendo un valore tipico dell'incertezza su vsini quando il valore e vuoto
-                
-               
-               
 
 
 
