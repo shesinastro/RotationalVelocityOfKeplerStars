@@ -1,6 +1,6 @@
 Execute as:<br />
 
-$BroadenSpectrum.py $vsini $sigma_noise
+$ python BroadenSpectrum.py $vsini $sigma_noise
 
 where $vsini is the input vsini<br />
 where $sigma_noise is the sigma of the Gaussian to simulate noise<br />
@@ -11,7 +11,7 @@ Output: Broadened+noised synthetic spectrum (synthetic spectrum with errors as r
 
 
 
-$python RotBroad_ChiSquared_Iterative.py <br />
+$ python RotBroad_ChiSquared_Iterative.py <br />
 Get vsini_guess through chi^2 minimization<br />
 Input: SynthSpectrum_selected_norm_withErrors.dat<br />
        BroadenedSpectrum.dat<br />
