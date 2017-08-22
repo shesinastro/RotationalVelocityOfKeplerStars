@@ -1,8 +1,0 @@
-*** Script to download html tables of KOI stellar properties from the ExoFOP catalogue and extract the value of vsini.
-
-Execute as:
-
-1) ./download.sh
-2) /.ExtractVrot.sh
-
-Input: list of KOIs of interest; either all KOIs, or only KOI with high-signal-to-noise spectra.
