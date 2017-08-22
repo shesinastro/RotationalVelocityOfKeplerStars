@@ -1,26 +1,28 @@
-1) produce a fake spectrum
-python BroadenSpectrum.py $vsini $sigma_noise
-where $vsini is the input vsini
-where $sigma_noise is the sigma of the Gaussian to simulate noise
+Execute as:<br />
+
+$BroadenSpectrum.py $vsini $sigma_noise
+
+where $vsini is the input vsini<br />
+where $sigma_noise is the sigma of the Gaussian to simulate noise<br />
 
 Input: SynthSpectrum_selected_norm.dat
-(synthetic spectrum)
 
-Output: Broadened+noised synthetic spectrum
-        (synthetic spectrum with errors as rms)
+Output: Broadened+noised synthetic spectrum (synthetic spectrum with errors as rms)
 
 
-2) Get vsini_guess through chi^2 minimization
-python RotBroad_ChiSquared_Iterative.py
-Input: SynthSpectrum_selected_norm_withErrors.dat
-       BroadenedSpectrum.dat
-Output: a file in which the vsini that mimimizes the chi^2 is stored
 
-3) emcee routine
-python TestRealTemplate_LimbDark_CentralLambda_ToZero_BootstrapPrior_NewErrors_FixedLimb_UnderError.py
-Output: EW of some of the models
-        cloud plot
-        time evolution of the walkers plot
-        triangle plot
+$python RotBroad_ChiSquared_Iterative.py <br />
+Get vsini_guess through chi^2 minimization<br />
+Input: SynthSpectrum_selected_norm_withErrors.dat<br />
+       BroadenedSpectrum.dat<br />
+Output: a file in which the vsini that mimimizes the chi^2 is stored <br />
+
+
+$python TestRealTemplate_LimbDark_CentralLambda_ToZero_BootstrapPrior_NewErrors_FixedLimb_UnderError.py<br />
+emcee routine<br />
+Output: EW of some of the models<br />
+        cloud plot<br />
+        time evolution of the walkers plot<br />
+        triangle plot<br />
 
 
