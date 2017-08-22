@@ -9,7 +9,7 @@ Input: SynthSpectrum_selected_norm.dat
 
 Output: Broadened+noised synthetic spectrum (synthetic spectrum with errors as rms)
 
-
+-- <br />
 
 $ python RotBroad_ChiSquared_Iterative.py <br />
 Get vsini_guess through chi^2 minimization<br />
@@ -17,6 +17,7 @@ Input: SynthSpectrum_selected_norm_withErrors.dat<br />
        BroadenedSpectrum.dat<br />
 Output: a file in which the vsini that mimimizes the chi^2 is stored <br />
 
+-- <br />
 
 $python TestRealTemplate_LimbDark_CentralLambda_ToZero_BootstrapPrior_NewErrors_FixedLimb_UnderError.py<br />
 emcee routine<br />
