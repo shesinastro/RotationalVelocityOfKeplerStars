@@ -1,7 +1,7 @@
-Execute with:
-$ /.exec.sh
+Execute with: <br />
+$ /.exec.sh  <br />
 
-——
+——   <br />
 1_Delete.py 
 Clean directory of previous output files
 
