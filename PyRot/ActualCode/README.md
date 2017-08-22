@@ -15,15 +15,15 @@ Convert fits files into text files
 Normalize each spectrum and take average
 
 5_ChiSquared.py <br />
-Get vsini_guess through classical chi^2 minimization
-Output: a file in which the vsini that mimimizes the chi^2 is stored
+Get vsini_guess through classical chi^2 minimization  <br />
+Output: a file in which the vsini that mimimizes the chi^2 is stored  <br />
 
 
 6_MeasureRotBroad.py <br />
-emcee routine to measure vsini  
-Output: EW of some of the models
-        cloud plot
-        time evolution of the walkers plot
-        triangle plot
+emcee routine to measure vsini   <br />
+Output: EW of some of the models<br />
+        cloud plot<br />
+        time evolution of the walkers plot<br />
+        triangle plot<br />
 
 ----
